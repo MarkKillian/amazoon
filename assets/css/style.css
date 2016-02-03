@@ -1,0 +1,28 @@
+/*Colors
+    Orange: #ff9900
+    Blue: #007aff
+    Header/Footer Blue: #232f3e*/
+body{
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:300;
+}
+/*HEADER*/
+header{
+  height: 80px;
+  width: 100%;
+  background-color: #232f3e;
+  line-height: 80px;
+  overflow: auto;
+}
+.logo{
+  float: left;
+}
+nav{
+  float: right;
+}
+nav .btn{
+  background-color: #ff9900;
+  color: white;
+  padding: 10px 15px;
+}
