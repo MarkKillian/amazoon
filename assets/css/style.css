@@ -26,3 +26,71 @@ nav .btn{
   color: white;
   padding: 10px 15px;
 }
+/*MAIN*/
+main{
+  background-color: white;
+}
+main h2{
+  color:#ff9900;
+  display: block;
+  text-align: center;
+}
+main .middle .leftLabel p{
+  margin: 0;
+}
+main .middle .rightLabel p{
+  margin: 0;
+}
+main .item{
+  border-top:2px solid #ccc;
+}
+main .item .product img{
+  height:150px;
+}
+main .item .description{
+  padding-top: 25px;
+}
+main .item .description .productName .name{
+  font-size: 20px;
+  font-weight: 400;
+}
+main .item .description .productName .maker{
+  padding-left: 10px
+}
+main .item .cost{
+  padding-top: 50px  
+}
+main .item .cost .price{
+  font-size: 30px;
+  font-weight: 400;
+  color:red;
+} 
+main .total{
+  font-size: 20px;
+  font-weight:400;
+  padding-top: 15px;
+  border-top:2px solid #ccc;
+}
+main .total .totalPrice{
+  color: red;
+  padding-left: 10px;
+}
+/*FOOTER*/
+footer{
+  width: 100%;
+  background-color: #232f3e;
+  text-align: center;
+  margin-top: 50px;
+}
+footer .foot{
+  height: 100px;
+  padding-top: 25px
+}
+footer .foot img{
+  width: 160px
+}
+footer .foot p{
+  margin-top:5px;
+  color: white;
+  font-size: 11px;
+}
